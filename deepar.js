@@ -41,11 +41,11 @@ import Carousel from "./carousel.js";
       // which is fine for development but is not recommended for production since it's not optimized for performance and can be unstable.
       // More info here: https://docs.deepar.ai/deepar-sdk/platforms/web/tutorials/download-optimizations/#custom-deployment-of-deepar-web-resources
 
-      additionalOptions: {
-        cameraConfig: {
-          // facingMode: 'environment'  // uncomment this line to use the rear camera
-        },
-      },
+      //   additionalOptions: {
+      //     cameraConfig: {
+      //       // facingMode: 'environment'  // uncomment this line to use the rear camera
+      //     },
+      //   },
     });
     console.log("effrct", effectList);
   } catch (error) {
